@@ -7,7 +7,6 @@ import { Send } from 'lucide-react'
 
 const Chat = () => {
     const [userInput, setSelectedInput] = useState<string>('');
-
     return (
         <ShadowBox>
             {/* QUestion List */}
