@@ -1,7 +1,7 @@
 import React from 'react'
 import DashboardCard from '../../dashboard/_components/DashboardCard'
 import Chat from './_components/Chat'
-
+export const dynamic = 'force-dynamic';
 const page = () => {
     return (
         <>
