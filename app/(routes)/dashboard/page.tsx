@@ -1,9 +1,15 @@
 import React from 'react'
+import DashboardCard from './_components/DashboardCard'
+import AITools from './_components/AITools'
 
-function Dashboard() {
+const DashboardPage = () => {
     return (
-        <div>Dashboard</div>
+        <div>
+            <DashboardCard title='AI Career Coach Agent' subTitle='Smarter career decisions start here- get  tailored advice.'
+                buttonTitle="Let's Get Started" />
+            <AITools />
+        </div>
     )
 }
 
-export default Dashboard
+export default DashboardPage
