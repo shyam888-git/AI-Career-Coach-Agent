@@ -12,13 +12,16 @@ export const AIToolsData: IAiProps[] = [
         icon: Chat,
         title: "AI Career Q&A Chat",
         subTitle: "Chat With AI Agent",
-        buttonTitle: "Ask Now"
+        buttonTitle: "Ask Now",
+        link: '/ai-tools/ai-chats'
     },
     {
         icon: Cover,
         title: "Cover Letter Generator",
         subTitle: "Chat With AI Agent",
-        buttonTitle: "Create Now"
+        buttonTitle: "Create Now",
+        link: '/ai-tools/ai-chats'
+
     },
 
 
@@ -27,14 +30,18 @@ export const AIToolsData: IAiProps[] = [
         icon: Resume,
         title: "AI Resume Analyzer",
         subTitle: "Chat With AI Agent",
-        buttonTitle: "Analyze Now"
+        buttonTitle: "Analyze Now",
+        link: '/ai-tools/ai-chats'
+
     },
 
     {
         icon: RoadMap,
         title: "Learning RoadMap",
         subTitle: "Chat With AI Agent",
-        buttonTitle: "Generate Now"
+        buttonTitle: "Generate Now",
+        link: '/ai-tools/ai-chats'
+
     },
 
 
@@ -52,6 +59,7 @@ const AITools = () => {
                                 title={item.title}
                                 subTitle={item.subTitle}
                                 buttonTitle={item.buttonTitle}
+                                link={item?.link}
                             />
                         </div>
                     ))}
